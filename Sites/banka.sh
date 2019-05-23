@@ -39,7 +39,7 @@ don() {
 
 echo -e '\e[31m[\e[32m!\e[31m]\e[37m Hazır !'
 
-while [ true ]; do
+while [ false ]; do
 
 
 if [[ -e "sites/$server/ip.txt" ]]; then
